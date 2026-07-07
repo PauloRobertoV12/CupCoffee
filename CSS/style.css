@@ -13,12 +13,13 @@ RESET: =========================
   --color-bg: #0A0A0A;
   --color-tag: #B09880;
   --color-bg-tag: #081528;
+  --color-bg-tag2: #191919;
   --color-border2: #1e1b17;
 
 /* ======================
 --Gradientes-- 
 ========================= */
-  --color-header: #0D0D0D;
+  --color-header: linear-gradient(270deg, #141414 0%, #0F0F0F 100%);
   
 /* ====================== 
 --Botões e Textos-- 
@@ -253,16 +254,17 @@ COMPONENTES: ===================
 .destaque {
   color: #B09880;
   font-size: var(--fs-p);
-  letter-spacing: 20%;
   margin-bottom: 18px;
-  text-transform: uppercase;
   width: 22%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .card-cupoun {
   color: #B09880;
   border: 2px solid #2b2b2b;
-  background: transparent;
+  background: var(--color-bg-tag2);
   font-weight: 700;
   font-family: var(--font-text);
   text-transform: uppercase;
@@ -334,6 +336,7 @@ Botões:
   border-radius: var(--radius);
   background: var(--color-btn2-hover);
   filter: blur(20px);
+  opacity: 0.5;
 }
 
 .cta-btn {
@@ -381,9 +384,9 @@ Botões:
 }
 
 .cart-btn{
-  width: 450px;
+  width: 420px;
   height: 98px;
-  background:#1A1A1A;
+  background:#1C1C1C;
   border: 1px solid #1F1F1F;
   border-radius: var(--radius);
   display: flex;
@@ -392,6 +395,7 @@ Botões:
   transition: .3s;
   text-decoration: none;
   color: inherit;
+  font-weight: 700;
 }
 
 .cart-btn:hover{
@@ -399,9 +403,9 @@ Botões:
 }
 
 .cart-btn-icon{
-  width:98px;
+  width:102px;
   height:100%;
-  background:#141414;
+  background: #0D0D0D;
   border-right:1px solid #1F1F1F;
   display:flex;
   justify-content:center;
@@ -426,7 +430,7 @@ Botões:
   color:#B0ABA5;
   font-size:20px;
   font-weight:700;
-  margin-right: 13px;
+  margin-right: 15px;
 }
 
 .secondary-btn,
@@ -441,6 +445,7 @@ Botões:
   color: var(--color-btn2-text);
   text-decoration: none;
   transition: all 0.3s ease;
+  font-weight: 700;
 }
 
 .secondary-btn:hover,
@@ -568,7 +573,7 @@ Flutuantes:
   align-items: center;
   border-radius: 50%;
   background: var(--color-btn1);
-  box-shadow: 0 0 60px var(--color-btn1);
+  box-shadow: 0 0 30px var(--color-btn1);
   transition: all 0.1s ease;
 }
 
@@ -1097,9 +1102,10 @@ PRODUCTS
 .section-subtitle {
   color: #B09880;
   font-size: var(--fs-p);
-  letter-spacing: 20%;
+  letter-spacing: 3%;
   margin-bottom: 18px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .products-title {
@@ -1184,10 +1190,11 @@ PRODUCTS
 }
 
 .product-info small{
-  color: var(--color-text);
+  color: var(--color-btn1-text);
   font-size: var(--fs-p);
   margin-bottom: 12px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .product-info h3{
@@ -1373,8 +1380,9 @@ PRODUCTS
 .about-header span {
   font-size: 24px;
   line-height: var(--lh-title);
-  letter-spacing: 12px;
-  color: #B09880; 
+  letter-spacing: 16%;
+  color: #B09880;
+  font-weight: bold;
 }
 
 .about-header h3 {
@@ -1464,7 +1472,7 @@ PRODUCTS
 
 .faq-suporte h3 {
   margin-bottom: 24px;
-  color: #B09880;
+  color: var(--color-btn1-text);
   font-family: var(--font-title);
   font-size: var(--fs-h3);
   letter-spacing: 6px;
