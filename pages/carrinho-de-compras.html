@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrinho de Compras</title>
+<link rel="icon" type="image/ico" href="./favicon.ico">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@300">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/style.css">
+<link rel="stylesheet" href="../CSS/carrinho-de-compras.css">
+</head>
+<body>
+
+  <section class="section-collection">
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+            <a href="http://127.0.0.1:5500/index.html#">
+                <img src="../assets/Logotipo.png" class="logotipo-menu" alt="Logo">
+            </a>
+        </div>
+      <nav>
+        <a href="http://127.0.0.1:5500/index.html#">Início</a>
+        <a href="#">Promoções</a>
+        <a href="#">Sobre Nós</a>
+        <a href="http://127.0.0.1:5500/pages/p%C3%A1gina-de-produto.html">Produtos</a>
+        <a href="http://127.0.0.1:5500/pages/cole%C3%A7%C3%A3o-de-produtos.html">Nossas Coleções</a>
+      </nav>
+      <a href="http://127.0.0.1:5500/pages/carrinho-de-compras.html" class="cart-btn">
+        <div class="cart-btn-icon">
+            <img src="../assets/Ícone do Carrinho de Compras.png" class="icon-cart" alt=""> 
+          </img>
+            <span class="cart-count">1</span>
+          </div>
+          <p class="cart-btn-text">
+            Carrinho de Compras
+          </p>
+        </a>
+      </header>
+    </div>
+  </section>
+
+              <div class="section-content">
+                <div class="container">
+                <h1 class="section-titles">CARRINHO DE <span class="span-subtitles">COMPRAS</span></h1>
+                  <div class="filters">
+                    <div class="filter-content">
+                      <img src="../assets/Produtos Selecionados.svg" class="icon-products" alt="">
+                      <p class="filters-products">1/4 dos produtos selecionados</p>
+                    </div>
+
+                    <div class="main-content">
+                      <div class="container">
+                      <div class="details-right">
+                      <!-- Produtos -->
+                      <div class="products-section">
+                        <!-- Produto 1 -->
+                        <div class="product-cart selected">
+                          <div class="product-image">
+                            <div class="overlay-icon-selected">
+                              <a href="#">
+                                <img src="../assets/Seta Correto.svg" class="icon-correct" alt="">
+                              </a>
+                            </div>
+                          </div>
+                          <div class="product-info-cart">
+                            <div class="product-header">
+                              <div>
+                                <h4 class="product-name">NOME DO PRODUTO</h4>
+                                <p class="product-subtitle">COMPRE O SEU AGORA MESMO</p>
+                              </div>
+                            </div>
+                            <div class="product-price">
+                              <p class="price">R$ 24,90</p>
+                              <p class="discount">Desconto de 10% OFF no pix</p>
+                            </div>
+                          </div>
+                          <div class="remover-product">
+                            <button class="btn-remove">✕</button>
+                          <div class="quantity-selector">
+                           <button class="qty-btn minus">
+                            <img src="../assets/Menos.png" class="icon-menos" alt="">
+                           </button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus">
+                            <img src="../assets/Mais.png" class="icon-mais" alt="">
+                            </button>
+                          </div>
+                        </div>
+                        </div>
+                  
+                          <!-- Produto 2, 3 e 4 (duplicados) -->
+                          <div class="product-cart">
+                            <div class="product-image">
+                              <div class="overlay-icon"></div>
+                            </div>
+                            <div class="product-info-cart">
+                              <div class="product-header">
+                                <div>
+                                  <h4 class="product-name">NOME DO PRODUTO</h4>
+                                  <p class="product-subtitle">COMPRE O SEU AGORA MESMO</p>
+                                </div>
+                              </div>
+                              <div class="product-price">
+                                <p class="price">R$ 24,90</p>
+                                <p class="discount">Desconto de 10% OFF no pix</p>
+                              </div>
+                            </div>
+                            
+                            <div class="remover-product">
+                              <button class="btn-remove">✕</button>
+                            <div class="quantity-selector">
+                              <button class="qty-btn minus">
+                              <img src="../assets/Menos.png" class="icon-menos" alt="">
+                              </button>
+                              <span class="qty-value">1</span>
+                              <button class="qty-btn plus">
+                              <img src="../assets/Mais.png" class="icon-mais" alt="">
+                              </button>
+                            </div>
+                          </div>
+                          </div>
+
+                        <!-- Produto 2, 3 e 4 (duplicados) -->
+                        <div class="product-cart">
+                          <div class="product-image">
+                            <div class="overlay-icon"></div>
+                          </div>
+                          <div class="product-info-cart">
+                            <div class="product-header">
+                              <div>
+                                <h4 class="product-name">NOME DO PRODUTO</h4>
+                                <p class="product-subtitle">COMPRE O SEU AGORA MESMO</p>
+                              </div>
+                            </div>
+                            <div class="product-price">
+                              <p class="price">R$ 24,90</p>
+                              <p class="discount">Desconto de 10% OFF no pix</p>
+                            </div>
+                          </div>
+                          
+                          <div class="remover-product">
+                            <button class="btn-remove">✕</button>
+                          <div class="quantity-selector">
+                            <button class="qty-btn minus">
+                            <img src="../assets/Menos.png" class="icon-menos" alt="">
+                            </button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus">
+                            <img src="../assets/Mais.png" class="icon-mais" alt="">
+                            </button>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- Produto 2, 3 e 4 (duplicados) -->
+                        <div class="product-cart">
+                          <div class="product-image">
+                            <div class="overlay-icon"></div>
+                          </div>
+                          <div class="product-info-cart">
+                            <div class="product-header">
+                              <div>
+                                <h4 class="product-name">NOME DO PRODUTO</h4>
+                                <p class="product-subtitle">COMPRE O SEU AGORA MESMO</p>
+                              </div>
+                            </div>
+                            <div class="product-price">
+                              <p class="price">R$ 24,90</p>
+                              <p class="discount">Desconto de 10% OFF no pix</p>
+                            </div>
+                          </div>
+                          
+                          <div class="remover-product">
+                            <button class="btn-remove">✕</button>
+                          <div class="quantity-selector">
+                            <button class="qty-btn minus">
+                            <img src="../assets/Menos.png" class="icon-menos" alt="">
+                            </button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus">
+                            <img src="../assets/Mais.png" class="icon-mais" alt="">
+                            </button>
+                          </div>
+                        </div>
+                        </div>
+
+                      </div>
+                      </section>
+                
+                      <!-- Sidebar -->
+                      <aside class="sidebar">
+                        <div class="sidebar-content">
+                          <!-- Cupons -->
+                          <div class="coupon">
+                            <div class="subtitle-coupon">
+                            <p class="section-subtitle">Cupons</p>
+                            <a href="#" class="coupon-edit">Trocar Cupom</a>
+                          </div>
+                            <div class="coupon-box">
+                              <div class="coupon-left">
+                                <div class="coupon">
+                                <a href="http://127.0.0.1:5500/index.html" class="icon-coupon">
+                                    <img src="../assets/cupons.png" class="icon-cart" alt=""> 
+                                </img>
+                                </a>
+                                </div>
+                                <span class="coupon-text">Cupons</span>
+                              </div>
+                              <div class="coupon-right">
+                                <span class="max-value">MAX350</span>
+                                <button class="remove-cupoun">✕</button>
+                              </div>
+                            </div>
+                          </div>
+                
+                          <!-- Descontos -->
+                          <div class="section">
+                            <p class="section-subtitle">Descontos</p>
+                            <div class="discount-box">
+                              <p class="discount-title">COMPRANDO PARA O SEU AMOR?</p>
+                              <p class="discount-text">Desconto de 10% OFF no pix</p>
+                              <a href="http://127.0.0.1:5500/index.html" class="a-links-cart">Adicionar presente</a>
+                            </div>
+                          </div>
+                
+                          <!-- Detalhes dos Preços -->
+                          <div class="section">
+                            <p class="section-subtitle">Detalhes dos Preços</p>
+                            <div class="discount-box">
+                              <p class="discount-title">COMPRANDO PARA O SEU AMOR?</p>
+                              <p class="discount-text">Desconto de 10% OFF no pix</p>
+                              <a href="http://127.0.0.1:5500/index.html" class="a-links-cart">Adicionar presente</a>
+                            </div>
+                          </div>
+                
+                          <!-- Botões -->
+                          <div class="buttons">
+                            <button class="btn btn-secondary">CONTINUAR COMPRANDO</button>
+                            <button class="btn btn-primary">CONFIRMAR AGORA A COMPRA!</button>
+                          </div>
+                        </div>
+                      </aside>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+      <section class="products">
+        <div class="container">
+            <div class="products-top">
+                <div>
+                    <p class="section-subtitle">
+                        COMPRE O SEU AGORA MESMO
+                    </p>
+                    <h2 class="products-title">
+                        O SEU CAFÉ QUE <br>
+                        NÃO <span class="span-subtitles">SAI DO SEU PÉ</span>
+                    </h2>
+                </div>
+    
+                <div class="products-filter">
+                    <button class="active">Expresso</button>
+                    <button>Natural</button>
+                    <button>Doces</button>
+                    <button>Achocolatados</button>
+                </div>
+            </div>
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="product-info">
+                        <small>Nome do produto</small>
+                        <h3>R$ 24,90</h3>
+                        <span>Desconto de 10% OFF no pix</span>
+                    </div>
+                    <img src="../assets/Imagem dos Produtos.png" alt="Café">
+                    <div class="product-buttons">
+                      <a href="http://127.0.0.1:5500/pages/carrinho-de-compras.html" class="btn-secondary">
+                          <img src="../assets/Ícone do Carrinho de Compras.png" alt="Carrinho">
+                          <span>Adicionar ao Carrinho</span>
+                      </a>
+                      <a href="#" class="btn-primary">
+                          Comprar Agora Mesmo!
+                      </a>
+                </article>
+                <article class="product-card">
+                    <div class="product-info">
+                        <small>Nome do produto</small>
+                        <h3>R$ 24,90</h3>
+                        <span>Desconto de 10% OFF no pix</span>
+                    </div>
+                    <img src="../assets/Imagem dos Produtos.png" alt="Café">
+                    <div class="product-buttons">
+                      <a href="http://127.0.0.1:5500/pages/carrinho-de-compras.html" class="btn-secondary">
+                          <img src="../assets/Ícone do Carrinho de Compras.png" alt="Carrinho">
+                          <span>Adicionar ao Carrinho</span>
+                      </a>
+                      <a href="#" class="btn-primary">
+                          Comprar Agora Mesmo!
+                      </a>
+                </article>
+                <article class="product-card">
+                    <div class="product-info">
+                        <small>Nome do produto</small>
+                        <h3>R$ 24,90</h3>
+                        <span>Desconto de 10% OFF no pix</span>
+                    </div>
+                    <img src="../assets/Imagem dos Produtos.png" alt="Café">
+                    <div class="product-buttons">
+                      <a href="http://127.0.0.1:5500/pages/carrinho-de-compras.html" class="btn-secondary">
+                          <img src="../assets/Ícone do Carrinho de Compras.png" alt="Carrinho">
+                          <span>Adicionar ao Carrinho</span>
+                      </a>
+                      <a href="#" class="btn-primary">
+                          Comprar Agora Mesmo!
+                      </a>
+                </article>
+                <article class="product-card">
+                    <div class="product-info">
+                        <small>Nome do produto</small>
+                        <h3>R$ 24,90</h3>
+                        <span>Desconto de 10% OFF no pix</span>
+                    </div>
+                    <img src="../assets/Imagem dos Produtos.png" alt="Café">
+                    <div class="product-buttons">
+                      <a href="http://127.0.0.1:5500/pages/carrinho-de-compras.html" class="btn-secondary">
+                          <img src="../assets/Ícone do Carrinho de Compras.png" alt="Carrinho">
+                          <span>Adicionar ao Carrinho</span>
+                      </a>
+                      <a href="#" class="btn-primary">
+                          Comprar Agora Mesmo!
+                      </a>
+                </article>
+            </div>
+            <div class="products-arrows">
+              <button class="arrow-left">
+                  <img src="../assets/icone seta 1.png" class="arrow-icon" alt="Anterior">
+              </button>
+              <button class="arrow-right">
+                  <img src="../assets/icone seta 2.png" class="arrow-icon" alt="Próximo">
+              </button>
+          </div>
+        </div>
+      </div>
+      </section>
+
+    <section class="banner-gallery">
+        <div class="container">
+            <p class="section-subtitle">
+                COMPRE O SEU AGORA MESMO
+            </p>
+            <h2 class="banners-title">
+                O SEU CAFÉ QUE
+                <span class="span-subtitles">NÃO SAI DO SEU PÉ</span>
+            </h2>
+            <div class="banner-image">
+                <img src="../assets/Imagem dos Produtos.png" alt="">
+            </div>
+            <div class="banner-footer">
+              <div class="products-arrows">
+                <button class="arrow-left">
+                    <img src="../assets/icone seta 1.png" class="arrow-icon" alt="Anterior">
+                </button>
+                <button class="arrow-right">
+                    <img src="../assets/icone seta 2.png" class="arrow-icon" alt="Próximo">
+                </button>
+            </div>
+                <div class="banner-promo">
+                    <p>Seu café com preço promocional HOJE de</p>
+                    <strong>30% OFF</strong>
+                    <p>até às</p>
+                    <strong>22H30</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="products">
+        <div class="container">
+            <div class="products-top">
+                <div>
+                    <p class="section-subtitle">
+                        COMPRE O SEU AGORA MESMO
+                    </p>
+                    <h2 class="products-title">
+                        O SEU CAFÉ QUE <br>
+                        NÃO <span class="span-subtitles">SAI DO SEU PÉ</span>
+                    </h2>
+                </div>
+    
+                <div class="products-filter">
+                    <button class="active">Expresso</button>
+                    <button>Natural</button>
+                    <button>Doces</button>
+                    <button>Achocolatados</button>
+                </div>
+            </div>
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="product-info">
+                        <small>Nome do produto</small>
+                        <h3>R$ 24,90</h3>
+                        <span>Desconto de 10% OFF no pix</span>
+                    </div>
+                    <img src="../assets/Imagem dos Produtos.png" alt="Café">
+                    <div class="product-buttons">
+                      <a href="http://127.0.0.1:5500/pages/carrinho-de-compras.html" class="btn-secondary">
+                          <img src="../assets/Ícone do Carrinho de Compras.png" alt="Carrinho">
+                          <span>Adicionar ao Carrinho</span>
+                      </a>
+                      <a href="#" class="btn-primary">
+                          Comprar Agora Mesmo!
+                      </a>
+                </article>
+                <article class="product-card">
+                    <div class="product-info">
+                        <small>Nome do produto</small>
+                        <h3>R$ 24,90</h3>
+                        <span>Desconto de 10% OFF no pix</span>
+                    </div>
+                    <img src="../assets/Imagem dos Produtos.png" alt="Café">
+                    <div class="product-buttons">
+                      <a href="http://127.0.0.1:5500/pages/carrinho-de-compras.html" class="btn-secondary">
+                          <img src="../assets/Ícone do Carrinho de Compras.png" alt="Carrinho">
+                          <span>Adicionar ao Carrinho</span>
+                      </a>
+                      <a href="#" class="btn-primary">
+                          Comprar Agora Mesmo!
+                      </a>
+                </article>
+                <article class="product-card">
+                    <div class="product-info">
+                        <small>Nome do produto</small>
+                        <h3>R$ 24,90</h3>
+                        <span>Desconto de 10% OFF no pix</span>
+                    </div>
+                    <img src="../assets/Imagem dos Produtos.png" alt="Café">
+                    <div class="product-buttons">
+                      <a href="http://127.0.0.1:5500/pages/carrinho-de-compras.html" class="btn-secondary">
+                          <img src="../assets/Ícone do Carrinho de Compras.png" alt="Carrinho">
+                          <span>Adicionar ao Carrinho</span>
+                      </a>
+                      <a href="#" class="btn-primary">
+                          Comprar Agora Mesmo!
+                      </a>
+                </article>
+                <article class="product-card">
+                    <div class="product-info">
+                        <small>Nome do produto</small>
+                        <h3>R$ 24,90</h3>
+                        <span>Desconto de 10% OFF no pix</span>
+                    </div>
+                    <img src="../assets/Imagem dos Produtos.png" alt="Café">
+                    <div class="product-buttons">
+                      <a href="http://127.0.0.1:5500/pages/carrinho-de-compras.html" class="btn-secondary">
+                          <img src="../assets/Ícone do Carrinho de Compras.png" alt="Carrinho">
+                          <span>Adicionar ao Carrinho</span>
+                      </a>
+                      <a href="#" class="btn-primary">
+                          Comprar Agora Mesmo!
+                      </a>
+                </article>
+            </div>
+            <div class="products-arrows">
+              <button class="arrow-left">
+                  <img src="../assets/icone seta 1.png" class="arrow-icon" alt="Anterior">
+              </button>
+              <button class="arrow-right">
+                  <img src="../assets/icone seta 2.png" class="arrow-icon" alt="Próximo">
+              </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-content">
+          <div class="footer-left">
+              <img src="../assets/Logotipo.png" class="footer-logo" alt="CupCoffee">
+          </div>
+          <div class="footer-center">
+              <p>Marca 2026 - Direitos Autorais</p>
+          </div>
+          <div class="footer-right">
+              <a href="#">
+                  <img src="../assets/Instagram.svg" alt="Instagram">
+              </a>
+              <a href="#">
+                  <img src="../assets/Facebook.svg" alt="Facebook">
+              </a>
+          </div>
+        </div>
+    </footer>
+
+</body>
+</html>
